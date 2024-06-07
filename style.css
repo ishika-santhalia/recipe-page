@@ -27,7 +27,7 @@ body {
 .recipe-card {
   width: 100%;
   max-width: 600px;
-  /* margin: 100px; */
+  margin: 100px;
   background-color: var(--white);
   padding: 30px;
   border-radius: 15px;
@@ -35,7 +35,8 @@ body {
 
 .omelette-img {
   width: 100%;
-  max-width: 540px;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 0;
 }
